@@ -143,3 +143,17 @@ import math
 #     rounded_circumference = math.ceil(circumference)   # Use ceil if remainder >= 0.5
 #
 # print(f"The rounded circumference is: {rounded_circumference}")
+
+# # area of a circle
+#
+# radius = input("Enter the radius of a circle: ")
+# area = math.pi * pow(float(radius), 2)
+# print(f"The area of the circle is: {round(area, 2)}cm^2")
+
+# hypotenuse of a triangle
+a = input("Enter side A: ")
+b = input("Enter side B: ")
+
+c = math.sqrt(pow(float(a), 2) + pow(float(b), 2))
+
+print(f"The hypotenuse of the triangle is: {round(c, 2)}cm")

@@ -124,5 +124,22 @@ import math
 # print(math.pi)
 # print(math.e)
 # print(math.sqrt(9))
-print(math.ceil(9.9))
-print(math.floor(9.9))
+# print(math.ceil(9.9))
+# print(math.floor(9.9))
+
+import math
+
+# # Get radius input from user
+# radius = input("Enter the radius of a circle: ")
+#
+# # Calculate circumference
+# circumference = 2 * math.pi * float(radius)
+#
+# # Use ceil or floor based on the decimal part of circumference
+# decimal_part = circumference % 1  # Get the decimal part
+# if decimal_part < 0.5:
+#     rounded_circumference = math.floor(circumference)  # Use floor if remainder < 0.5
+# else:
+#     rounded_circumference = math.ceil(circumference)   # Use ceil if remainder >= 0.5
+#
+# print(f"The rounded circumference is: {rounded_circumference}")

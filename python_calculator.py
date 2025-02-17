@@ -6,10 +6,14 @@ num2 = float(input("Enter the second number: "))
 
 print(num1, operator, num2)
 if operator == "+":
-    print(num1 + num2)
+    result =num1 + num2
+    print(round(result, 3))
 elif operator == "-":
-    print(num1 + num2)
+    result = num1 - num2
+    print(round(result, 3))
 elif operator == "/":
-    print(num1 / num2)
+    result = num1 / num2
+    print(round(result, 3))
 elif operator == "*":
-    print(num1 * num2)
+    result = num1 * num2
+    print(round(result, 3))

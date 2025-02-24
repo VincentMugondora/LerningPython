@@ -49,10 +49,51 @@
 # Set = {}  unordered and immutable but Add/Remove OK. No duplicates
 # Tuple = () ordered and immutable. Duplicates OK. FASTER
 
-fruits = ["apple", "banana", "cherry", "orange"]
+# fruits = ["apple", "banana", "cherry", "orange", "apple"]
+# print(dir(fruits))
+# print(help(fruits))
+# print(len(fruits))
+# "apple" in fruits
+# print("apple" in fruits)
+
+# fruits[1] = "pineapple"
+# fruits.append("pineapple")
+# fruits.insert(0, "pineapple")
+# fruits.sort()
+# fruits.reverse()
+# fruits.clear()
+# print(fruits.index("apple"))
+# print(fruits.count("apple"))
 
 # print(fruits[0])
+# print(fruits)
+
+# for fruit in fruits:
+#     if fruit == "apple" or fruit == "banana":
+#         print(f"The {fruit} is delicious")
+#     else:
+#         print(f"The {fruit} is not delicious")
+
+# SETS
+
+# fruits = {"apple", "banana", "cherry", "orange", "apple"}
+
+# # fruits.add("pineapple")
+# # fruits.remove("banana")
+# # fruits.pop()
+# fruits.clear()
+
+# print(fruits)
+
+# TUPLE
+
+fruits = ("apple", "banana", "cherry", "orange", "apple")
+
+print(len(fruits))
+print(fruits.count("apple"))
+print(fruits.index("apple"))
 
 for fruit in fruits:
-    if fruit == "apple" or fruit == "banana":
-        print(f"The {fruit} is delicious")
+    print(fruit)
+
+print(fruits)

@@ -39,6 +39,7 @@
 
 # print (increment(2, 4))
 
+[2, 3, 4, 5]
 
 def multiply(*numbers):
     print(numbers)

@@ -58,9 +58,9 @@ fruits = ["apple", "banana", "cherry", "orange", "apple"]
 
 # fruits[1] = "pineapple"
 # fruits.append("pineapple")
-fruits.insert(0, "pineapple")
+# fruits.insert(0, "pineapple")
 # fruits.sort()
-# fruits.reverse()
+fruits.reverse()
 # fruits.clear()
 # print(fruits.index("apple"))
 # print(fruits.count("apple"))

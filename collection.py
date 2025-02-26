@@ -49,7 +49,7 @@
 # Set = {}  unordered and immutable but Add/Remove OK. No duplicates
 # Tuple = () ordered and immutable. Duplicates OK. FASTER
 
-# fruits = ["apple", "banana", "cherry", "orange", "apple"]
+fruits = ["apple", "banana", "cherry", "orange", "apple"]
 # print(dir(fruits))
 # print(help(fruits))
 # print(len(fruits))
@@ -58,7 +58,7 @@
 
 # fruits[1] = "pineapple"
 # fruits.append("pineapple")
-# fruits.insert(0, "pineapple")
+fruits.insert(0, "pineapple")
 # fruits.sort()
 # fruits.reverse()
 # fruits.clear()
@@ -66,7 +66,7 @@
 # print(fruits.count("apple"))
 
 # print(fruits[0])
-# print(fruits)
+print(fruits)
 
 # for fruit in fruits:
 #     if fruit == "apple" or fruit == "banana":

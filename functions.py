@@ -39,9 +39,37 @@
 
 # print (increment(2, 4))
 
-[2, 3, 4, 5]
+# def multiply(*numbers):
+#     total = 1
+#     for number in numbers:
+#         total *= number
+#     return total
 
-def multiply(*numbers):
-    print(numbers)
+# print(multiply(2,3,4,5))
 
-multiply(2,3,4,5)
+# def save_user(**user):
+#     print(user)
+
+
+# save_user(id=1, name="John", age=22)
+
+# # Scope
+# message = "a"
+
+# def greet():
+#     message = "b"   
+#     print(message)
+
+
+# greet()
+
+def fizz_buzz(input):
+    if input % 3 == 0 and input % 5 == 0:
+        return "FizzBuzz"
+    if input % 3 == 0:
+        return "Fizz"
+    if input % 5 == 0:
+        return "Buzz"
+    return input
+
+print(fizz_buzz(45))

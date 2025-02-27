@@ -94,4 +94,49 @@ print(band["member1"]["name"])
 # Sets
 # A set is an unordered collection of items. Every element is unique (no duplicates) and must be immutable (which cannot be changed).
 
-# Updating values in a dictionary  
+nums = {1, 2, 3, 4} 
+
+print("THESE ARE SETS")
+
+nums2 = set((1, 2, 3, 4))
+
+print(nums)
+print(nums2)
+print(type(nums))
+print(type(nums2))
+
+# No duplicates allowed
+nums = {1, 2, 3, 1, 2}
+print(nums)
+
+# True is a dupe of 1 and False is a dupe of 0
+nums = {1, 2, 3, True, False,4,0}
+print(nums)
+
+# Check if a value is in a set
+print(2 in nums)
+# you cant refer to an element in the set with an index position or a key
+# you can only check if a value is in the set with the 'in' keyword
+
+# Add an element to a set
+nums.add(5)
+print(nums)
+
+# Add elements from one set to another
+morenums = {6, 7, 8}
+nums.update(morenums)
+print(nums) # you can use update with lists, tuples and dictionaries too
+
+# Merge two sets to create a new set
+one = {1, 2, 3}
+two = {2, 3, 4, 5}
+
+my_new_set = one.union(two)
+print(my_new_set)
+
+# Keep only the duplicates
+one = {1, 2, 3}
+two = {2, 3, 4, 5}
+
+my_new_set = one.intersection(two)
+print(my_new_set)

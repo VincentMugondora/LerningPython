@@ -73,3 +73,16 @@
 #     pass
 
 
+for x in range(0, 20):
+    if x % 2 == 0:
+        print(x)
+
+
+for i in range (2, 21, 2):
+    print(i)
+
+
+names = ["John", "Jane", "Doe", "Mary", "Peter"]
+
+for name in names:
+    print(f"Hello {name}")

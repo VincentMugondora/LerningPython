@@ -93,4 +93,31 @@
 #             print(f"{x} equals {i} * {x/i}")
             
 
-            
+# Reverse a string
+def reverse_string(string):
+    return string[::-1]
+        
+
+print(reverse_string("Hello"))
+
+# Find the Maximum in a List
+
+# def find_max(list):
+#     maxEE = list[0]
+#     for num in list:
+#         if num > maxEE:
+#             maxEE = num
+#     return maxEE
+
+
+# numbers = [35, 10, 15, 20, 25, 30]
+# print(find_max(numbers))
+
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+    return True
+    

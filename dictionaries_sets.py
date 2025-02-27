@@ -74,6 +74,21 @@ my_dict3 = dict(my_dict)
 print("Good Copy!")
 print(my_dict3)
 
+# Nested dictionaries
+member1 = {
+    "name": "John",
+    "age": 30
+}
+member2 = {
+    "name": "Jane",
+    "age": 18
+}
+band = {
+    "member1": member1,
+    "member2": member2
+}
 
+print(band)
+print(band["member1"]["name"])
 
 # Updating values in a dictionary  

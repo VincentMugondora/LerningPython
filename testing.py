@@ -56,3 +56,20 @@
 
 
 # print(check_even_odd(5))
+
+
+# Prime Number
+
+# for n in range (2, 10):
+#     for x in range (2, n):
+#         if n % x == 0:
+#             print(f"{n} equals {x} * {n/x}")
+#             break
+#     else:
+#         print(f"{n} is a prime number")
+
+
+# def initlog(*args):
+#     pass
+
+

@@ -6,13 +6,11 @@
 # Example: my_dict = {"key1": "value1", "key2": "value
 
 my_dict = {"name": "John", "age": 30, "city": "New York"}
+my_dict2 = {"name": "John", "age": 30, "city": "New York"}
+
 
 # Accessing values in a dictionary
 # You can access the value of a key in a dictionary by using the key as an index.
-
-name = my_dict["name"]
-age = my_dict["age"]
-city = my_dict["city"]
 
 print(my_dict["name"])
 print(my_dict.get("age"))
@@ -40,9 +38,42 @@ print(my_dict.pop("age"))
 print(my_dict)
 
 # adding items in a dictionary
-band["drums"] = "Bonham"
-print(band)
+my_dict["bank"] = "NedBank"
+print(my_dict)
 
-print()
+print(my_dict.popitem())  # tuple
+print(my_dict)
+
+# delete and clear the dictionary
+my_dict["bank"] = "NedBank"
+del my_dict["name"]
+print(my_dict)
+
+my_dict2.clear()
+print(my_dict2)
+
+del my_dict2
+
+# copy dictionaries
+# my_dict2 = my_dict # this is a reference
+# print("Bad Copy")
+# print (my_dict2)
+# print(my_dict)
+
+# my_dict2["name"] = "Jane"
+# print(my_dict)
+
+my_dict2 = my_dict.copy()
+print("Good Copy!")
+my_dict2["name"] = "Jane"
+print(my_dict)
+print(my_dict2)
+
+# or use the dict() constructor function
+my_dict3 = dict(my_dict)
+print("Good Copy!")
+print(my_dict3)
+
+
 
 # Updating values in a dictionary  

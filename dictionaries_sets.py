@@ -39,4 +39,10 @@ print(my_dict)
 print(my_dict.pop("age"))
 print(my_dict)
 
-# Updating values in a dictionary   
+# adding items in a dictionary
+band["drums"] = "Bonham"
+print(band)
+
+print()
+
+# Updating values in a dictionary  

@@ -113,11 +113,14 @@ print(reverse_string("Hello"))
 # numbers = [35, 10, 15, 20, 25, 30]
 # print(find_max(numbers))
 
-def is_prime(n):
-    if n < 2:
-        return False
-    for i in range(2, n):
-        if n % i == 0:
-            return False
-    return True
+# def is_prime(n):
+#     if n < 2:
+#         return False
+#     for i in range(2, n):
+#         if n % i == 0:
+#             return f"{n} is not a prime number"
+#     return f"{n} is a prime number"
     
+
+# print(is_prime(6))
+

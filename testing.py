@@ -73,16 +73,24 @@
 #     pass
 
 
-for x in range(0, 20):
-    if x % 2 == 0:
-        print(x)
+# for x in range(0, 20):
+#     if x % 2 == 0:
+#         print(x)
 
 
-for i in range (2, 21, 2):
-    print(i)
+# for i in range (2, 21, 2):
+#     print(i)
 
 
-names = ["John", "Jane", "Doe", "Mary", "Peter"]
+# names = ["John", "Jane", "Doe", "Mary", "Peter"]
 
-for name in names:
-    print(f"Hello {name}")
+# for name in names:
+#     print(f"Hello {name}")
+
+# for x in range(2, 21):
+#     for i in range(2, x):
+#         if x % i == 0:
+#             print(f"{x} equals {i} * {x/i}")
+            
+
+            

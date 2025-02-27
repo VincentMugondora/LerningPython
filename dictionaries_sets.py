@@ -140,3 +140,11 @@ two = {2, 3, 4, 5}
 
 my_new_set = one.intersection(two)
 print(my_new_set)
+
+# Keep only the unique elements
+one = {1, 2, 3}
+two = {2, 3, 4, 5}
+
+my_new_set = one.symmetric_difference(two)
+
+print(my_new_set)

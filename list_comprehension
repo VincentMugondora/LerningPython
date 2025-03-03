@@ -1,0 +1,27 @@
+# # Create a list of squares from 1 to 10
+# squares = [x**2 for x in range(1, 11)]
+# print(squares)
+
+# # Create a list of even numbers from 1 to 20
+# evens = [x for x in range(1, 21) if x % 2 == 0]
+# print(evens)
+
+# # Create a list of tuples (number, square) for numbers from 1 to 5
+# number_square_tuples = [(x, x**2) for x in range(1, 6)]
+# print(number_square_tuples)
+
+# # Flatten a list of lists
+# list_of_lists = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+# flattened_list = [item for sublist in list_of_lists for item in sublist]
+# print(flattened_list)
+
+# list comprehensions
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+strings = ["intro", "to", "list", "comps"]
+
+results = []
+for i in nums:
+    i = i * 2
+    results.append(i)
+
+print(results)

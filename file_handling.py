@@ -1,3 +1,5 @@
+import os
+
 # r = Read
 # a = Append
 # w = Write
@@ -50,3 +52,23 @@ f.close()
 # Opens a file for writing, creates the file if it does not exist
 f = open("name_list.txt", "w")
 f.close()
+
+
+# creates a file but throws an error if it already exists
+if not os.path.exists("viny.txt"):
+    f = open("viny.txt", "x")
+    f.close()
+
+# Delete a file
+
+# Avoid an error if it doesn't exist
+if os.path.exists("viny.txt"):
+    os.remove("viny.txt")   
+else:
+    print("File does not exist")
+
+with open("more_names.txt") as f:
+    content = f.read()
+
+with open("names_list.txt", "w") as f:
+    f.write(content)
